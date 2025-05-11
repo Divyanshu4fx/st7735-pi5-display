@@ -25,7 +25,7 @@ This project provides Python scripts and utilities to render static images and p
    ```
 3. Change Display Height and Width in st7735 libray location to get full display.
    - go to home/lib/python3.11/site-packages/st7735/__init__.py Or your python installation location
-   - change this variable according to your display size
+   - change these variables according to your display size
    ```python
    ST7735_TFTWIDTH = 128
    ST7735_TFTHEIGHT = 160
