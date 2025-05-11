@@ -15,10 +15,10 @@ This project provides Python scripts and utilities to render static images and p
 
 ## Setup
 1. Enable SPI interface on Pi 5
-   a. Run `sudo raspi-config`
-   b. Go to Interface Options
-   c. Select SPI
-   d. Enable SPI
+   - Run `sudo raspi-config`
+   - Go to Interface Options
+   - Select SPI
+   - Enable SPI
 2. Install Requirements
    ```bash
    pip install -r requirements.txt
