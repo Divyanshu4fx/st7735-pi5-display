@@ -1,0 +1,7 @@
+pillow>=10.0.0
+st7735>=1.0.0
+numpy>=1.26.0
+spidev>=3.4
+gpiodevice>=0.0.5
+gpiod>=2.2.1
+opencv-python
