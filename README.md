@@ -14,19 +14,27 @@ This project provides Python scripts and utilities to render static images and p
 | BL  | 3.3V    |
 
 ## Setup
-1.Enable SPI interface on Pi 5
-  a. Run `sudo raspi-config`
-  b. Go to Interface Options
-  c. Select SPI
-  d. Enable SPI
-2.Install Requirements
-` pip install -r requirements.txt`
-3.Change Display Height and Width in st7735 libray location to get full display.
-  a. go to home/lib/python3.11/site-packages/st7735/__init__.py Or your python installation location
-  b. change this variable according to your display size
-  `ST7735_TFTWIDTH = 128
-ST7735_TFTHEIGHT = 160`
-4.Install ffmpeg
-`sudo apt install ffmpeg`
+1. Enable SPI interface on Pi 5
+   a. Run `sudo raspi-config`
+   b. Go to Interface Options
+   c. Select SPI
+   d. Enable SPI
+2. Install Requirements
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Change Display Height and Width in st7735 libray location to get full display.
+   a. go to home/lib/python3.11/site-packages/st7735/__init__.py Or your python installation location
+   b. change this variable according to your display size
+   ```python
+   ST7735_TFTWIDTH = 128
+   ST7735_TFTHEIGHT = 160
+   ```
+4. Install ffmpeg
+   ```bash
+   sudo apt install ffmpeg
+   ```
 5. Run the code
-`python image.py ./content/cat.jpg`
+   ```bash
+   python image.py ./content/cat.jpg
+   ```
